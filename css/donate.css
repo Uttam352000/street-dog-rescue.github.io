@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+.header{
+	min-height:100vh;
+	width:100%;
+	background:linear-gradient(45deg,#22046b,#e14e42);
+}
+
+nav{
+	
+	width:100%;
+}
+
+lebel.logo{
+	font-size:29px;
+	padding:0 80px;
+	font-weight:bold;
+	line-height:50px;
+	color:yellow;
+	border:2px solid cyan;
+	border-radius:70px;
+}
+
+.nav-links{
+	float:right;
+	margin-right:30px;
+}
+
+.nav-links ul li{
+	display:inline-block;
+	line-height:50px;
+	padding:15px;
+}
+
+.nav-links ul li a{
+	color:white;
+	font-size:17px;
+	text-transform:uppercase;
+}
+
+.nav-links ul li::after{
+	content:'';
+	width:0%;
+	height:2px;
+	background:linear-gradient(to right,#ffff00 0%,#ff3399 100%);
+	display:block;
+	margin:auto;
+	transition:0.5s;
+}
+
+.nav-links ul li:hover::after{
+	width:100%;
+}
+
+.head{
+width:100%;
+margin:auto;
+text-align:center;
+}
+.head h1{
+text-align:left;
+color:white;
+font-size:50px;
+margin-left:5%;
+margin-top:5%;
+
+}
+
+.rdesign{
+	margin:2%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.cdesign{
+	flex-basis:30%;
+	border-radius:30px;
+	margin-top:3%;
+	padding:50px 30px;
+	box-sizing:border-box;
+}
+.cdesign p{
+	margin:10px;
+	color:white;
+	line-height:30px;
+	font-size:25px;
+}
+.cdesign h7{
+	color:white;
+	font-size:15px
+}
+.cdesign:hover{
+background:linear-gradient(45deg,#22046b,#e14e42);}
+
+
+@media(max-width:700px){
+	.rdesign{
+		flex-direction:column;
+	}
+}
+

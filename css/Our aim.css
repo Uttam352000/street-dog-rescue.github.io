@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+.header{
+	min-height:100vh;
+	width:100%;
+	background:linear-gradient(45deg,#22046b,#e14e42);
+}
+
+nav{
+	
+	width:100%;
+}
+
+lebel.logo{
+	font-size:29px;
+	padding:0 80px;
+	font-weight:bold;
+	line-height:50px;
+	color:yellow;
+	border:2px solid cyan;
+	border-radius:70px;
+}
+.nav-links{
+	float:right;
+	margin-right:30px;
+}
+
+.nav-links ul li{
+	display:inline-block;
+	line-height:50px;
+	padding:15px;
+}
+
+.nav-links ul li a{
+	color:white;
+	font-size:17px;
+	text-transform:uppercase;
+}
+
+.nav-links ul li::after{
+	content:'';
+	width:0%;
+	height:2px;
+	background:linear-gradient(to right,#ffff00 0%,#ff3399 100%);
+	display:block;
+	margin:auto;
+	transition:0.5s;
+}
+
+.nav-links ul li:hover::after{
+	width:100%;
+}
+.content1{
+	width:100%;
+	margin-top:6%;
+}
+.content1 h1{
+	margin-left:6%;
+	font-size:40px;
+	color:white;
+}
+.pic{
+	width:380px;
+	height:360px;
+	border-radius:10px;
+	margin-left:6%;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:3%;
+	float:left;
+}
+.text{
+	color:white;
+	font-size:20px;
+	margin-top:2.5%;
+	width:80%;
+	text-align:justify;
+	line-height: 200%;
+	letter-spacing:3px;
+}
